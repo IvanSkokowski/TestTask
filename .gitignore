@@ -12,9 +12,7 @@
 /config/packages/local.yml
 
 #/custom/*
-/custom/plugins/*
-!/custom/plugins/SliderDemo/*
-
+!/custom/.gitkeep
 
 /build/*
 !/build/artifacts/.gitkeep
@@ -71,14 +69,20 @@ chromedriver.log
 /composer.lock
 
 
-Vagrantfile
+/Vagrantfile
 ## public/
 ## dev-ops/
 ## config/
-/.vagrant/
+/.vagrant/*
 ## psh.phar
 ## src/
 ## phpunit.xml.dist
 ## foo
 
 
+/custom/plugins/ThemeForTest2/
+/custom/plugins/ThemeForTest/
+/custom/plugins/SwagTraining/
+/custom/plugins/MyTheme/
+/custom/plugins/SwagQuickstartTheme/
+!/custom/plugins/SliderDemo/
