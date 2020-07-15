@@ -71,13 +71,14 @@ chromedriver.log
 /composer.lock
 
 
-## Vagrantfile
+Vagrantfile
 ## public/
 ## dev-ops/
 ## config/
-## .vagrant/
+/.vagrant/
 ## psh.phar
 ## src/
 ## phpunit.xml.dist
 ## foo
+
 

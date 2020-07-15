@@ -16,7 +16,7 @@ Vagrant.configure("2") do |config|
     config.vm.hostname = "shopware.local"
     config.vm.provider :virtualbox do |v|
         v.name = "shopware.local"
-        v.memory = "3456"
+        v.memory = "3072"
         v.cpus = 2
         v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
         v.customize ["modifyvm", :id, "--ioapic", "on"]
