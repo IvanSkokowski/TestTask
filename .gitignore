@@ -11,7 +11,8 @@
 /config/packages/local.yaml
 /config/packages/local.yml
 
-/custom/*
+#/custom/*
+!/custom/.gitkeep
 
 /build/*
 !/build/artifacts/.gitkeep
@@ -33,6 +34,8 @@
 !/public/thumbnail/.gitkeep
 /public/plugins/*
 /public/assets/*
+
+
 
 /files/*
 /.docker-sync/
@@ -64,3 +67,22 @@ chromedriver.log
 ###< phpunit/phpunit ###
 
 /composer.lock
+
+
+/Vagrantfile
+## public/
+## dev-ops/
+## config/
+/.vagrant/*
+## psh.phar
+## src/
+## phpunit.xml.dist
+## foo
+
+
+/custom/plugins/ThemeForTest2/
+/custom/plugins/ThemeForTest/
+/custom/plugins/SwagTraining/
+/custom/plugins/MyTheme/
+/custom/plugins/SwagQuickstartTheme/
+!/custom/plugins/SliderDemo/
