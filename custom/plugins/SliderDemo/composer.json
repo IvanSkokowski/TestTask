@@ -1,6 +1,6 @@
 {
   "name": "swag/plugin-skeleton",
-  "description": "Skeleton plugin",
+  "description": "SliderDemo plugin",
   "type": "shopware-platform-plugin",
   "license": "MIT",
   "autoload": {
@@ -11,8 +11,8 @@
   "extra": {
     "shopware-plugin-class": "SliderDemo\\SliderDemo",
     "label": {
-      "de-DE": "Skeleton plugin",
-      "en-GB": "Skeleton plugin"
+      "de-DE": "SliderDemo plugin",
+      "en-GB": "SliderDemo plugin"
     }
   }
 }

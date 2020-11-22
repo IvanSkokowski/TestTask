@@ -1,5 +1,5 @@
 import './component';
-import './preview';
+import './prview';
 
 Shopware.Service('cmsService').registerCmsBlock({
     name: 'image-slider-demo',
