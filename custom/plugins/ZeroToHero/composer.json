@@ -1,0 +1,18 @@
+{
+  "name": "swag/plugin-skeleton",
+  "description": "ZeroToHero plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "ZeroToHero\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "ZeroToHero\\ZeroToHero",
+    "label": {
+      "de-DE": "ZeroToHero plugin",
+      "en-GB": "ZeroToHero plugin"
+    }
+  }
+}

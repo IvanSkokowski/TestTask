@@ -1,0 +1,12 @@
+{% sw_extends '@Storefront/storefront/page/account/register/index.html.twig' %}
+
+{% block page_account_register_container %}
+    {% if shopware.config.ZeroToHero.config.active %}
+        <div class="col-lg-8">
+            <h1>Sorry, our registration is closed at the moment.</h1>
+        </div>
+    {% else %}
+        {{ parent() }}
+    {% endif %}
+    <template data-example-plugin></template>
+{% endblock %}
