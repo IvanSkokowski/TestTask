@@ -3,6 +3,6 @@ import './sw-cms-preview-image-slider-demo.scss';
 
 const { Component } = Shopware;
 
-Component.register('sw-cms-preview-image-slider-demo', {
+Component.register('sw-cms-preview-image-slider-demo.scss', {
     template
 });
